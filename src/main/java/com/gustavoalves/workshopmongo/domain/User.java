@@ -18,9 +18,9 @@ public class User implements Serializable {
 	public User() {
 	}
 	
-	public User(String id, String nome, String email) {
+	public User(String id, String name, String email) {
 		this.id = id;
-		this.name = nome;
+		this.name = name;
 		this.email = email;
 	}
 
@@ -30,11 +30,11 @@ public class User implements Serializable {
 	public void setId(String id) {
 		this.id = id;
 	}
-	public String getNome() {
+	public String getName() {
 		return name;
 	}
-	public void setNome(String nome) {
-		this.name = nome;
+	public void setNome(String name) {
+		this.name = name;
 	}
 	public String getEmail() {
 		return email;
